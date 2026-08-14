@@ -28,6 +28,23 @@ A machine learning project that predicts car mileage (MPG) using multiple featur
 - R² Score
 - Adjusted R² Score
 
+### 02. Logistic Regression — Claimant Prediction
+
+A classification project using Logistic Regression to predict whether a claimant will have an attorney based on claimant-related features.
+
+#### Techniques Covered
+- Data Understanding
+- Missing Value Handling
+- Feature and Target Separation
+- Train-Test Split
+- Logistic Regression
+- Model Training
+- Classification Prediction
+- Confusion Matrix
+- Accuracy Score
+- Classification Report
+- Model Serialization using Pickle
+
 ## Technologies
 
 - Python
