@@ -45,6 +45,28 @@ A classification project using Logistic Regression to predict whether a claimant
 - Classification Report
 - Model Serialization using Pickle
 
+### 03. Ensemble Learning and Model Tuning — Claimant Prediction
+
+A classification project exploring multiple machine learning models and ensemble techniques for claimant prediction.
+
+#### Models & Techniques
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- AdaBoost
+- K-Nearest Neighbors
+- Voting Classifier
+- Grid Search Cross-Validation
+- Hyperparameter Tuning
+
+#### Model Evaluation
+- Accuracy
+- Confusion Matrix
+- Classification Report
+- ROC Curve
+- AUC Score
+- Bias-Variance Tradeoff
+
 ## Technologies
 
 - Python
