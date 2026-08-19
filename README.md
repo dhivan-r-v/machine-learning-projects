@@ -67,6 +67,21 @@ A classification project exploring multiple machine learning models and ensemble
 - AUC Score
 - Bias-Variance Tradeoff
 
+### 04. Model Validation and Cross-Validation
+
+A classification model validation project using Logistic Regression and the Claimants dataset.
+
+#### Techniques Covered
+- Train-Test Split
+- K-Fold Cross Validation
+- Leave-One-Out Cross Validation (LOOCV)
+- Grid Search Cross Validation
+- Model Training and Testing
+- Model Evaluation
+- ROC Curve
+- Bias-Variance Trade-off
+- Overfitting and Underfitting
+
 ## Technologies
 
 - Python
