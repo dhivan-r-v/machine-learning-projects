@@ -1,112 +1,163 @@
 # Machine Learning Projects
 
-This repository contains my hands-on Machine Learning learning journey and projects using Python, Scikit-learn, and related libraries.
+This repository contains my Machine Learning practice and projects as I learn and build my skills in Machine Learning.
 
-## Projects
+I have used Python and different machine learning libraries to understand the complete workflow, starting from data preprocessing and moving towards model building, evaluation, and model selection.
 
-### 01. Multiple Linear Regression — Car Mileage Prediction
+## Topics Covered
 
-A machine learning project that predicts car mileage (MPG) using multiple features such as horsepower, volume, speed, and weight.
+### Data Preprocessing
 
-#### Techniques Covered
-- Data Understanding
-- Exploratory Data Analysis
-- Linearity Testing
-- Normality Testing
-- Multicollinearity Analysis
-- Multiple Linear Regression
-- Model Training and Prediction
-- Model Evaluation
-- Residual Analysis
-- Adjusted R²
-- Model Serialization using Pickle
+* Data understanding
+* Missing value handling
+* Data cleaning
+* Label Encoding
+* One-Hot Encoding
+* Feature scaling
+* Train-Test Split
+* Stratified sampling
 
-#### Evaluation Metrics
-- MAE
-- MSE
-- RMSE
-- R² Score
-- Adjusted R² Score
+### Regression
 
-### 02. Logistic Regression — Claimant Prediction
+* Linear Regression
+* Multiple Linear Regression
+* Model evaluation
+* MAE
+* MSE
+* RMSE
+* R²
+* Adjusted R²
+* Residual analysis
+* Model assumptions
 
-A classification project using Logistic Regression to predict whether a claimant will have an attorney based on claimant-related features.
+### Classification
 
-#### Techniques Covered
-- Data Understanding
-- Missing Value Handling
-- Feature and Target Separation
-- Train-Test Split
-- Logistic Regression
-- Model Training
-- Classification Prediction
-- Confusion Matrix
-- Accuracy Score
-- Classification Report
-- Model Serialization using Pickle
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Decision Trees
+* Random Forest
+* Model evaluation
+* Confusion Matrix
+* Accuracy
+* Precision
+* Recall
+* ROC Curve
+* AUC
 
-### 03. Ensemble Learning and Model Tuning — Claimant Prediction
+### Ensemble Learning
 
-A classification project exploring multiple machine learning models and ensemble techniques for claimant prediction.
+* Voting Classifier
+* Random Forest
+* AdaBoost
+* Gradient Boosting
+* XGBoost
+* LightGBM
 
-#### Models & Techniques
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- AdaBoost
-- K-Nearest Neighbors
-- Voting Classifier
-- Grid Search Cross-Validation
-- Hyperparameter Tuning
+### Model Validation
 
-#### Model Evaluation
-- Accuracy
-- Confusion Matrix
-- Classification Report
-- ROC Curve
-- AUC Score
-- Bias-Variance Tradeoff
+* Train-Test Split
+* K-Fold Cross Validation
+* Leave-One-Out Cross Validation (LOOCV)
+* GridSearchCV
+* Hyperparameter tuning
+* Bias-Variance trade-off
+* Overfitting
+* Underfitting
 
-### 04. Model Validation and Cross-Validation
+### Feature Selection
 
-A classification model validation project using Logistic Regression and the Claimants dataset.
+* Feature importance
+* SelectFromModel
+* Recursive Feature Elimination (RFE)
+* Random Forest based feature selection
+* Gradient Boosting based feature selection
 
-#### Techniques Covered
-- Train-Test Split
-- K-Fold Cross Validation
-- Leave-One-Out Cross Validation (LOOCV)
-- Grid Search Cross Validation
-- Model Training and Testing
-- Model Evaluation
-- ROC Curve
-- Bias-Variance Trade-off
-- Overfitting and Underfitting
+### Handling Imbalanced Data
 
-## Technologies
+* Class distribution analysis
+* Stratified train-test split
+* Class weighting
+* Model evaluation for imbalanced classification
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Statsmodels
+## Projects and Practice
 
-## Objective
+### 1. Data Preprocessing and Encoding
 
-To develop practical Machine Learning skills by implementing algorithms, evaluating models, and understanding the complete machine learning workflow.
+Practice with data cleaning, missing value handling and categorical feature encoding.
 
-## Upcoming Topics
+### 2. Multiple Linear Regression - Car Mileage Prediction
 
-- Regularization
-- K-Nearest Neighbors
-- Support Vector Machines
-- Decision Trees
-- Random Forest
-- Gradient Boosting
-- XGBoost
-- Clustering
-- Model Deployment
+A regression project to predict car mileage using multiple features.
+
+### 3. Logistic Regression - Claimant Prediction
+
+A classification project using Logistic Regression to predict whether a claimant will have an attorney.
+
+### 4. Ensemble Learning and Model Tuning
+
+Practice with different classification models and ensemble techniques, along with hyperparameter tuning.
+
+### 5. Model Validation and Cross Validation
+
+Practice with different validation techniques including K-Fold Cross Validation, LOOCV and GridSearchCV.
+
+### 6. Handling Imbalanced Data
+
+A classification exercise using a breast cancer dataset to understand class imbalance and class weighting.
+
+### 7. KNN Classification
+
+A KNN classification exercise using the Wine dataset, including feature scaling and selection of the number of neighbors.
+
+### 8. Gradient Boosting and XGBoost
+
+Classification practice using Gradient Boosting and XGBoost, including model evaluation and comparison.
+
+### 9. Boosting Algorithms - Comparative Analysis
+
+Comparison of AdaBoost, Gradient Boosting, XGBoost and LightGBM on a credit card default prediction problem.
+
+### 10. Feature Selection
+
+Practice with feature importance, SelectFromModel and Recursive Feature Elimination (RFE).
+
+## Tools and Libraries
+
+* Python
+* Jupyter Notebook
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* Statsmodels
+* XGBoost
+* LightGBM
+
+## Repository Structure
+
+```text
+machine-learning-projects/
+│
+├── 01_Data_Preprocessing/
+├── 02_Linear_Regression/
+├── 03_Logistic_Regression/
+├── 04_Ensemble_Learning/
+├── 05_Model_Validation/
+├── 06_Imbalanced_Data/
+├── 07_KNN/
+├── 08_Gradient_Boosting_and_XGBoost/
+├── 09_Boosting_Comparison/
+├── 10_Feature_Selection/
+│
+└── README.md
+```
+
+## What I am Learning
+
+My focus is on understanding how machine learning models work and how to apply them to practical datasets. I am also working on improving my understanding of data preprocessing, feature engineering, model evaluation and model selection.
+
+I will keep adding more projects and topics as I continue learning.
 
 ## Author
 
