@@ -120,6 +120,24 @@ Comparison of AdaBoost, Gradient Boosting, XGBoost and LightGBM on a credit card
 ### 10. Feature Selection
 
 Practice with feature importance, SelectFromModel and Recursive Feature Elimination (RFE).
+### 11. Hierarchical Clustering - College Segmentation
+
+A clustering project using college data to group colleges based on their numerical characteristics.
+
+#### Techniques Covered
+- Data Understanding
+- Data Preparation
+- Feature Scaling
+- StandardScaler
+- Hierarchical Clustering
+- Agglomerative Clustering
+- Dendrogram
+- Ward Linkage
+- Euclidean Distance
+- Cluster Analysis
+- Cluster Categorization
+- Random Forest Classification
+- Model Serialization using Pickle
 
 ## Tools and Libraries
 
