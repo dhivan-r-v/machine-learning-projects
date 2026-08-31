@@ -139,6 +139,22 @@ A clustering project using college data to group colleges based on their numeric
 - Random Forest Classification
 - Model Serialization using Pickle
 
+### 12. K-Means Clustering - College Segmentation
+
+Used K-Means clustering on college data to understand how similar colleges can be grouped together based on their features.
+
+#### Topics Covered
+- Data Preparation
+- Feature Scaling
+- StandardScaler
+- K-Means Clustering
+- Cluster Centroids
+- Cluster Analysis
+- WCSS / Inertia
+- Elbow Method
+- Silhouette Score
+- Choosing the Number of Clusters
+
 ## Tools and Libraries
 
 * Python
