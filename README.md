@@ -1,129 +1,160 @@
 # Machine Learning Projects
 
-This repository contains my Machine Learning practice, projects, and experiments as I build my skills in Machine Learning.
+This repository contains my Machine Learning practice and projects that I worked on while learning and building my ML skills.
 
-The notebooks cover different parts of the Machine Learning workflow, starting with data preprocessing and moving through model building, evaluation, validation, feature selection, ensemble methods, and unsupervised learning.
+I started with the basic machine learning workflow and gradually worked through data preprocessing, regression, classification, ensemble methods, model validation, clustering, feature selection, association rule mining, and recommender systems.
 
-I have used different datasets and algorithms to understand how these techniques work in practical problems.
+Most of the work is done using Python and common machine learning libraries.
 
 ## Topics Covered
 
-### Data Preprocessing
-- Data understanding and exploration
+### 1. Data Preprocessing
+- Data cleaning and preparation
 - Handling missing values
-- Data transformation
 - Encoding categorical variables
 - Feature scaling
 - Train-test split
-- Stratified sampling
+- Data exploration
 
-### Linear Regression
-- Simple and Multiple Linear Regression
-- Model assumptions
-- Residual analysis
-- Multicollinearity
-- Model evaluation
-- MAE, MSE, RMSE
+### 2. Linear Regression
+- Simple Linear Regression
+- Multiple Linear Regression
+- Model training and testing
+- Regression assumptions
+- MAE, MSE and RMSE
 - R² and Adjusted R²
+- Residual analysis
 
-### Logistic Regression
+### 3. Logistic Regression
 - Binary classification
+- Logistic Regression
 - Train-test split
-- Classification evaluation
 - Confusion matrix
-- Accuracy, Precision, Recall
-- Classification Report
-- ROC Curve and AUC
+- Accuracy
+- Precision
+- Recall
+- Classification report
+- Model serialization using Pickle
 
-### Ensemble Learning
+### 4. Ensemble Learning
 - Decision Trees
 - Random Forest
 - AdaBoost
 - Voting Classifier
-- Gradient Boosting
-- XGBoost
-- LightGBM
-- Model comparison
+- Ensemble model comparison
 - Hyperparameter tuning
+- GridSearchCV
 
-### Model Validation
-- Train-Test Split
+### 5. Model Validation
+- Train-test split
 - K-Fold Cross Validation
-- Leave-One-Out Cross Validation
+- Leave-One-Out Cross Validation (LOOCV)
 - Grid Search
-- Model performance comparison
+- ROC Curve
+- AUC
 - Bias and Variance
-- ROC and AUC
 
-### Handling Imbalanced Data
-- Understanding class imbalance
+### 6. Handling Imbalanced Data
+- Class distribution
 - Stratified train-test split
 - Class weights
 - Decision Tree classification
-- Confusion Matrix
+- Confusion matrix
 - Precision and Recall
 
-### K-Nearest Neighbors
+### 7. K-Nearest Neighbors
 - KNN classification
 - Feature scaling
-- Selecting the best K value
-- Cross validation
+- Choosing the value of K
+- Cross-validation
 - Model evaluation
 
-### Gradient Boosting and XGBoost
+### 8. Gradient Boosting and XGBoost
 - Gradient Boosting Classifier
 - XGBoost
-- Model training and evaluation
-- Accuracy, Precision and Recall
+- Classification evaluation
+- Accuracy
+- Precision
+- Recall
 - Confusion Matrix
-- Comparing boosting models
 
-### Feature Selection
+### 9. Boosting Algorithms Comparison
+- AdaBoost
+- Gradient Boosting
+- XGBoost
+- LightGBM
+- Comparing different boosting models
+
+### 10. Feature Selection
 - Feature importance
-- Random Forest feature selection
 - SelectFromModel
 - Recursive Feature Elimination (RFE)
+- Random Forest based feature selection
+- Gradient Boosting based feature selection
 - Comparing model performance before and after feature selection
 
-### Unsupervised Learning
+### 11. Unsupervised Learning
 - K-Means Clustering
 - Hierarchical Clustering
 - Agglomerative Clustering
 - DBSCAN
+- Dendrograms
 - Elbow Method
 - WCSS / Inertia
 - Silhouette Score
 - Calinski-Harabasz Score
 - Cluster analysis
-- Comparing clustering algorithms
 
-### Association Rule Mining
+### 12. Association Rule Mining
 - Market Basket Analysis
-- Transaction data preparation
+- Transaction data
 - One-hot encoding
-- Apriori Algorithm
-- Frequent Itemsets
-- Association Rules
+- Apriori algorithm
+- Frequent itemsets
+- Association rules
 - Support
 - Confidence
 
+### 13. Recommender Systems
+- User-Based Collaborative Filtering (UBCF)
+- User-Movie Rating Matrix
+- Euclidean Distance
+- Cosine Similarity
+- User similarity
+- Movie recommendation
+
 ## Projects and Practice
 
-Some of the notebooks included in this repository are:
-
+### Regression
 - Car Mileage Prediction using Multiple Linear Regression
+
+### Classification
 - Claimant Prediction using Logistic Regression
-- Ensemble Learning and Model Tuning
-- Model Validation and Cross Validation
-- Handling Imbalanced Classification Data
 - KNN Classification using the Wine Dataset
+- Breast Cancer Classification
 - Gradient Boosting and XGBoost Classification
-- Comparative Analysis of Boosting Algorithms
-- Feature Selection using RFE and SelectFromModel
-- K-Means Clustering for College Segmentation
-- Hierarchical Clustering for College Segmentation
-- Comparison of Clustering Algorithms
-- Association Rule Mining using Online Retail Data
+
+### Ensemble Learning
+- Ensemble Learning and Model Tuning
+- AdaBoost, Gradient Boosting, XGBoost and LightGBM comparison
+
+### Model Validation
+- Cross-validation techniques
+- K-Fold Cross Validation
+- LOOCV
+- Grid Search
+- ROC and AUC analysis
+
+### Clustering
+- College Segmentation using K-Means
+- College Segmentation using Hierarchical Clustering
+- Clustering Algorithms Comparison using K-Means, Hierarchical Clustering and DBSCAN
+
+### Association Rule Mining
+- Market Basket Analysis using Online Retail data
+
+### Recommender System
+- Movie Recommendation using User-Based Collaborative Filtering
 
 ## Repository Structure
 
@@ -133,35 +164,50 @@ machine-learning-projects/
 ├── 01_Data_Preprocessing/
 │
 ├── 02_Linear_Regression/
+│   └── Multiple_Linear_Regression_Car_Mileage_Prediction.ipynb
 │
 ├── 03_Logistic_Regression/
+│   └── Logistic_Regression_Claimant_Prediction.ipynb
 │
 ├── 04_Ensemble_Learning/
+│   └── Ensemble_Learning_and_Model_Tuning.ipynb
 │
 ├── 05_Model_Validation/
+│   └── Model_Validation_and_Cross_Validation.ipynb
 │
 ├── 06_Imbalanced_Data/
+│   └── Handling_Imbalanced_Data_Decision_Tree.ipynb
 │
 ├── 07_KNN/
+│   └── KNN_Classification_Wine_Dataset.ipynb
 │
 ├── 08_Gradient_Boosting_and_XGBoost/
+│   └── Gradient_Boosting_and_XGBoost_Classification.ipynb
 │
 ├── 09_Boosting_Comparison/
+│   └── Boosting_Algorithms_Comparative_Analysis.ipynb
 │
 ├── 10_Feature_Selection/
+│   └── Feature_Selection_RFE_and_SelectFromModel.ipynb
 │
 ├── 11_Unsupervised_Learning/
+│   ├── Hierarchical_Clustering_College_Segmentation.ipynb
+│   ├── KMeans_Clustering_College_Segmentation.ipynb
+│   └── Clustering_Algorithms_Comparison.ipynb
 │
 ├── 12_Association_Rule_Mining/
+│   └── Association_Rule_Mining_Online_Retail.ipynb
+│
+├── 13_Recommender_Systems/
+│   └── User_Based_Collaborative_Filtering_Movie_Recommendation.ipynb
 │
 └── README.md
-
-## What I am Learning
 
 My focus is on understanding how machine learning models work and how to apply them to practical datasets. I am also working on improving my understanding of data preprocessing, feature engineering, model evaluation and model selection.
 
 I will keep adding more projects and topics as I continue learning.
 
 ## Author
+   Dhivan R V
 
 Dhivan
